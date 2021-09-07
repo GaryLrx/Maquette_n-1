@@ -244,7 +244,7 @@ aside ul li a:hover{
 
 @media screen and (max-width:492px){
     header nav a {
-        padding: 1em 2em;
+        padding: 1em 1em;
         font-size: 14px;
     }
 
@@ -256,5 +256,31 @@ aside ul li a:hover{
         height: 1px;
         left: 25%;
         top: 111%;
+    }
+    
+    header nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:410px){
+    .date {
+        position: absolute;
+        top: 28px;
+        right: 0px;
+    }
+
+    h2{
+        position: absolute;
+        bottom: 316px;
+    }
+
+    .texte{
+        padding-top: 10px;
+    }
+
+    header nav ul{
+        display: flex;
+        justify-content: space-around;
     }
 }
